@@ -14,7 +14,8 @@ public class J1SP0059 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PeopleSearchSystem system = new PeopleSearchSystem();
+        system.start();
     }
     
 }
