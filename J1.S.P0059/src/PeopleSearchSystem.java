@@ -21,7 +21,7 @@ public class PeopleSearchSystem {
         fileManager = new FileManager();
     }
 
-    public void start() {
+    public void start() throws IOException {
         boolean exit = false;
 
         while (!exit) {
